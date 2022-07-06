@@ -152,6 +152,7 @@ width:100%;
 }
 .plan_box p {
     color:#707070;
+    line-height: 150%;
 }
 .custom_area {
     max-width: 1050px;
