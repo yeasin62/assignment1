@@ -1,0 +1,250 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+.top_area {
+    background:url(images/donation7.jpg) no-repeat;
+    background-size:cover;
+    text-align:center;
+    min-height:600px;
+    position:relative;
+}
+.overlay {
+position:absolute;
+background:rgba(0,0,0,.6);
+top:0;
+bottom:0;
+width:100%;
+}
+.top_inner {
+    padding:150px 0;
+    max-width: 800px;
+    margin:0 auto;
+}
+.top_inner h1 {
+    color:#fff;
+    font-size:65px;
+    font-weight: 600;
+}
+.top_inner p {
+    color:#fff;
+    max-width: 600px;
+    margin:0 auto;
+    font-weight: 300;
+    padding:15px 0;
+}
+.btn_div {
+    padding-top:25px;
+}
+.donate_button {
+   background: #FF5959;
+   padding: 12px 16px;
+   text-decoration: none;
+   font-weight: 400;
+   color:#fff;
+   font-size:16px;
+   border-radius:5px; 
+   border:none;
+   cursor: pointer;
+}
+.donate_area {
+    text-align:center;
+    padding-top:130px;
+    padding-bottom:70px;
+}
+.donate_inner, .title, .subscribe_inner {
+    max-width:600px;
+    margin:0 auto;
+    text-align: center;
+}
+.title {
+    margin-bottom: 60px;
+}
+.donate_plan_area {
+    overflow: hidden;
+}
+.donate_inner h2, .title h2, .subscribe_inner h2 {
+    font-size:45px;
+}
+.donate_inner p, .title p, .subscribe_inner p {
+    font-size:18px;
+    line-height:120%;
+    padding:15px;
+    font-weight: 300;
+}
+.amount {
+    width:17.5%;
+    float:left;
+    text-align: center;
+    font-size:28px;
+    font-weight: 700;
+    padding:45px 0;
+    background:#FAFAFA;
+    margin:1%;
+    border:1 px solid #FAFAFA;
+    border-radius:7px;
+}
+.selected_amount {
+    border:1px solid #FF5959;
+    background:#FFEEEE;
+    margin-bottom: 40px;
+}
+.donate_amounts_list {
+    max-width: 800px;
+    margin:0 auto;
+    
+}
+#wamount {
+    display: block;
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid #DADADA;
+    padding:10px;
+    text-align: center;
+    color:#B3B3B3;
+    font-size:18px;
+    font-weight: 300;
+}
+#wamount:active {
+    border:none;
+}
+#wamount::placeholder {
+    font-size:18px;
+    color:#B3B3B3;
+    text-align: center;
+}
+#wamount:focus {
+    outline:none;
+}
+.donate_button {
+    margin-top:30px;
+}
+.plan_box {
+    width: 31%;
+    float:left;
+    margin-right:2%;
+}
+.planbox_inner {
+    padding:55px 25px;
+    
+}
+.donate_plan_box {
+    max-width: 1050px;
+    margin:0 auto;
+}
+.color1 {
+    background:rgba(238,113,113,.2);
+}
+.color2 {
+    background:rgba(154,236,219,.2);
+}
+.color3 {
+    background:rgba(255,74,189,.2);
+}
+.plan_box h3 {
+    font-size:24px;
+    font-weight: 700;
+    margin-bottom:20px;
+    margin-top: 30px;
+}
+.plan_box p {
+    color:#707070;
+}
+.custom_area {
+    max-width: 1050px;
+    margin:0 auto;
+    padding:120px 0;
+    overflow: hidden;
+}
+
+.custom_left {
+    width:50%;
+    float: left;
+    text-align: center;
+}
+
+.custom_left img {
+    width:80%;
+}
+.custom_right {
+    width:50%;
+    float:right;
+    
+}
+.custom_right_inner {
+    padding:20px;
+}
+.custom_right_inner h4 {
+   font-size: 20px;
+   margin-bottom:15px;
+}
+.custom_right_inner h2 {
+   font-size: 28px;
+   margin-bottom:15px;
+}
+.subscribe_area {
+    overflow: hidden;
+}
+.custom_inner_box {
+    margin-bottom: 40px;
+}
+.custom_inner_box h4 {
+    font-size:18px;
+}
+.custom_inner_box p {
+    color:#707070;
+    line-height: 150%;
+}
+.myform {
+    width:750px;
+    margin: 50px auto;
+    background: #FFF4D6;
+    padding:70px 0;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 120px;
+}
+.subscription_form {}
+#donatemail {
+    background:#D9D9D9;
+    font-size:16px;
+    color:#AA9F9F;
+    padding:14px;
+    border:none;
+    width:255px;
+    border-radius: 5px 0 0 5px;
+}
+#donatemail::placeholder {
+    color:#AA9F9F;
+}
+.subscribe_btn {
+    font-size:16px;
+    padding:14px 40px;
+    background:#FF5959;
+    border:none;
+    margin-left:-10px;
+    color:#fff;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+#donatemail:focus {
+    outline: none;
+}
+.footer_area {
+    background: #0B0D17;
+    text-align: center;
+    padding:70px 0;
+}
+.footer_inner h3 {
+    color:#FF5959;
+    font-size:25px;
+}
+.footer_inner p {
+    color:#fff;
+    font-size:14px;
+    padding:15px;
+}
